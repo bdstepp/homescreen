@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+body {
+  background-color: rgb(59, 53, 73);
+}
+
+.container {
+  background-color: rgba(249, 246, 255, 0.788);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+  height: 200px;
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  font-family: "Ubuntu Condensed", "sans-serif";
+  padding: 20px;
+}
+
+#quote {
+  font-size: 1.5em;
+  padding: 5px;
+  width: 200px;
+}
